@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// 0. Напишите программу, которая на вход принимает число и выдаёт его квадрат (число умноженное на само себя).
+System.Console.Write("Задай число:");
+int number = Convert.ToInt32(Console.ReadLine());
+int kvadrat = number * number;
+System.Console.WriteLine(number + " в квадрате равно " + kvadrat);
