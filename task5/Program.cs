@@ -12,7 +12,7 @@ class Program
         // Выводим все целые числа от -N до N
         for (int i = -N; i <= N; i++)
         {
-            Console.WriteLine(i);
+            Console.Write(i +"\t");
         }
     }
 }
