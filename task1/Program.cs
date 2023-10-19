@@ -6,7 +6,7 @@ int number_first = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Задай второе число:");
 int number_second = Convert.ToInt32(Console.ReadLine());
 
-if (number_first*number_first == number_second)
+if (number_first * number_first == number_second)
 {
     System.Console.WriteLine("Число " + number_second + " это " + number_first + " в квадрате");
 }
