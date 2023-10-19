@@ -8,8 +8,8 @@
 Console.Clear();
 
 int number = new Random().Next(100, 1000);
-System.Console.WriteLine("Выпало число: " + number);
+System.Console.WriteLine($"Выпало число: {number}");
 
 int last = number % 10;
 
-System.Console.WriteLine("Последняя цифра - " + last);
+System.Console.WriteLine($"Последняя цифра - {last}");
