@@ -8,7 +8,6 @@ System.Console.WriteLine($"Выпало число: {number}");
 int first = number / 100;
 int last = number % 10;
 
-
 System.Console.WriteLine($"Первая цифра - {first}");
 System.Console.WriteLine($"Последняя цифра - {last}");
-System.Console.WriteLine($"Сумма цифр - {first+last}");
+System.Console.WriteLine($"Сумма первой и последней цифр - {first+last}");
