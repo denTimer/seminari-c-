@@ -6,6 +6,6 @@ int N = Convert.ToInt32(Console.ReadLine());
 // Выводим все целые числа от -N до N
 for (int i = -N; i <= N; i++)
 {
-    Console.Write(i + "\t");
+    Console.Write(i + " ");
 }
 

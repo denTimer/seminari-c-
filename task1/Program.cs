@@ -8,9 +8,9 @@ int number_second = Convert.ToInt32(Console.ReadLine());
 
 if (number_first * number_first == number_second)
 {
-    System.Console.WriteLine("Число " + number_second + " это " + number_first + " в квадрате");
+    System.Console.WriteLine($"Число {number_second} это {number_first} в квадрате");
 }
 else
 {
-    System.Console.WriteLine("Число " + number_second + " это не " + number_first + " в квадрате");
+    System.Console.WriteLine($"Число {number_second} это не {number_first} в квадрате");
 }
