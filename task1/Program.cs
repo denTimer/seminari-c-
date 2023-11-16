@@ -6,11 +6,11 @@ int number_first = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Задай второе число: ");
 int number_second = Convert.ToInt32(Console.ReadLine());
 
-if (number_first * number_first == number_second)
+if (number_second * number_second == number_first)
 {
-    System.Console.WriteLine($"Число {number_second} это {number_first} в квадрате");
+    System.Console.WriteLine($"Число {number_first} это {number_second} в квадрате");
 }
 else
 {
-    System.Console.WriteLine($"Число {number_second} это не {number_first} в квадрате");
+    System.Console.WriteLine($"Число {number_first} это не {number_second} в квадрате");
 }
